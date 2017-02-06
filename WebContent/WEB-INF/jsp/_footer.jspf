@@ -1,38 +1,36 @@
 <footer id="fh5co-footer" role="contentinfo">
-		<div class="container">
+    <div class="container">
+        <div class="row copyright">
+            <div class="col-md-12 text-center">
+                <p>
+                    <small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small>
+                    <small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
+                </p>
+                <p>
+                    <ul class="fh5co-social-icons">
+                        <li><a href="#"><i class="icon-twitter"></i></a></li>
+                        <li><a href="#"><i class="icon-facebook"></i></a></li>
+                        <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                        <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
 
-			<div class="row copyright">
-				<div class="col-md-12 text-center">
-					<p>
-						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
-					</p>
-					<p>
-						<ul class="fh5co-social-icons">
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-linkedin"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
-						</ul>
-					</p>
-				</div>
-			</div>
 
-		</div>
-	</footer>
-	
-	
-	</div>
+<div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+</div>
 
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
-	</div>
 
-	<script>
-    var d = new Date(2017,01,16); 
-	/* instead of 02 for Feb month, set it as 01, as months are indexed from 0 in js. */
-	
-	//new Date().getTime() + 200 * 120 * 120 * 2000);
+<script>
+    var d = new Date(2017, 01, 16);
+    /* instead of 02 for Feb month, set it as 01, as months are indexed from 0 in js. */
+
+    //new Date().getTime() + 200 * 120 * 120 * 2000);
 
     // default example	
     simplyCountdown('.simply-countdown-one', {
@@ -48,6 +46,102 @@
         day: d.getDate(),
         enableUtc: false
     });
-	</script>
-	</body>
+</script>
+
+
+<!-- start: Google Map js   AIzaSyA5UbEPCAI_vx0Srk6Jy_Mbd_kUBeYjJM8
+<script src="https://maps.googleapis.com/maps/api/js"></script> -->
+<script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyA5UbEPCAI_vx0Srk6Jy_Mbd_kUBeYjJM8"></script>
+
+<script>
+    var map;
+    function initialize() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 12,
+            center: new google.maps.LatLng(14.605501, 121.208969),
+            mapTypeId: 'roadmap'
+        });
+
+        var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+        var icons = {
+            parking: {
+                url: 'images/map-marker.png', //iconBase + 'parking_lot_maps.png'
+                scaledSize: new google.maps.Size(50, 50)
+            },
+            library: {
+                url: 'images/map-marker.png', //iconBase + 'library_maps.png'
+                scaledSize: new google.maps.Size(50, 50)
+            },
+            info: {
+                url: 'images/map-marker.png', //iconBase + 'info-i_maps.png'
+                scaledSize: new google.maps.Size(50, 50)
+            }
+        };
+
+        function addMarker(feature) {
+            var marker = new google.maps.Marker({
+                position: feature.position,
+
+                labelContent: "ABCD",
+                labelAnchor: new google.maps.Point(15, 65),
+                labelClass: "labels", // the CSS class for the label
+                labelInBackground: true,
+
+                icon: icons[feature.type],
+                map: map
+            });
+
+            var iw = new google.maps.InfoWindow({
+                content: feature.tooltip
+            });
+
+            google.maps.event.addListener(marker, "click", function(e) {
+                iw.open(map, this);
+            });
+        }
+
+        var features = [{
+            position: new google.maps.LatLng(14.589120, 121.177006),
+            tooltip: 'Antipolo Cathedral',
+            type: 'info' // Antipolo Cathedral
+        }, {
+            position: new google.maps.LatLng(14.594901, 121.167693),
+            tooltip: 'Hinulugang Taktak',
+            type: 'info' // Hinulugang Taktak
+        }, {
+            position: new google.maps.LatLng(14.614563, 121.154045),
+            tooltip: 'Cloud 9, 360 View',
+            type: 'info' // Cloud 9
+        }, {
+            position: new google.maps.LatLng(14.581272, 121.164205),
+            tooltip: 'Pinto Art Museum',
+            type: 'info' // Pinto Art Museum
+        }, {
+            position: new google.maps.LatLng(14.593623, 121.178640),
+            tooltip: 'Casa Santa',
+            type: 'info' // Casa Santa
+        }, {
+            position: new google.maps.LatLng(14.605501, 121.208969),
+            tooltip: 'Mystical Cave',
+            type: 'info' // Mystical Cave
+        }, {
+            position: new google.maps.LatLng(14.639475, 121.238386),
+            tooltip: 'Boso Boso Church',
+            type: 'info' // Boso Boso Church
+        }, {
+            position: new google.maps.LatLng(14.575102, 121.168067),
+            tooltip: 'Bosay Resort',
+            type: 'info' // Bosay
+        }];
+
+        for (var i = 0, feature; feature = features[i]; i++) {
+            addMarker(feature);
+        }
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<!-- end: Google Map js -->
+
+</body>
 </html>

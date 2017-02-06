@@ -1,46 +1,46 @@
 <div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>Our 2 Special Events</span>
-					<h2>Anniversary Events</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="display-t">
-					<div class="display-tc">
-						<div class="col-md-10 col-md-offset-1">
-							<div class="col-md-6 col-sm-6 text-center">
-								<div class="event-wrap animate-box">
-									<h3>Dinner out</h3>
-									<div class="event-col">
-										<i class="icon-clock"></i>
-										<span>8:00 PM</span>
-										<span>11:00 PM</span>
-									</div>
-									<div class="event-col">
-										<i class="icon-calendar"></i>
-										<span>Thursday 16</span>
-										<span>February, 2017</span>
-									</div>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-							<div class="col-md-6 col-sm-6 text-center">
-								<div class="event-wrap animate-box">
-									<h3>One Day Tour</h3>
-									<div class="event-col">
-										<i class="icon-clock"></i>
-										<span>6:00 AM</span>
-										<span>7:00 PM</span>
-									</div>
-									<div class="event-col">
-										<i class="icon-calendar"></i>
-										<span>Saturday 18</span>
-										<span>February, 2017</span>
-									</div>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+    <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+        <span>Our 2 Special Events</span>
+        <h2>Anniversary Events</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="display-t">
+        <div class="display-tc">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="col-md-6 col-sm-6 text-center">
+                    <div class="event-wrap animate-box">
+                        <h3>Dinner out</h3>
+                        <div class="event-col">
+                            <i class="icon-clock"></i>
+                            <span>8:00 PM</span>
+                            <span>11:00 PM</span>
+                        </div>
+                        <div class="event-col">
+                            <i class="icon-calendar"></i>
+                            <span>Thursday 16</span>
+                            <span>February, 2017</span>
+                        </div>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 text-center">
+                    <div class="event-wrap animate-box">
+                        <h3>One Day Tour</h3>
+                        <div class="event-col">
+                            <i class="icon-clock"></i>
+                            <span>6:00 AM</span>
+                            <span>7:00 PM</span>
+                        </div>
+                        <div class="event-col">
+                            <i class="icon-calendar"></i>
+                            <span>Saturday 18</span>
+                            <span>February, 2017</span>
+                        </div>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

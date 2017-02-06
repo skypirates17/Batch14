@@ -1,121 +1,121 @@
 <div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>Timeline</span>
-					<h2>Our Story</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 col-md-offset-0">
-					<ul class="timeline animate-box">
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-1.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">First We Meet, Start of Work</h3>
-									<span class="date"><i class="icon-calendar"></i>February 16, 2015</span>
-								</div>
-								<div class="timeline-body">
-									<p>AAA</p>
-								</div>
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-2.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">First Birthday Celebration of our batchmate</h3>
-									<span class="date"><i class="icon-calendar"></i>March 00, 2015</span>
-								</div>
-								<div class="timeline-body">
-									<p>BBB</p>
-								</div>
-							</div>
-						</li>
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-3.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">End of Bootcamp Training,<br>Start of Work in Production</h3>
-									<span class="date"><i class="icon-calendar"></i>April 00, 2015</span>
-								</div>
-								<div class="timeline-body">
-									<p>CCC</p>
-								</div>
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-4.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Regularization</h3>
-									<span class="date"><i class="icon-calendar"></i>August 00, 2015</span>
-								</div>
-								<div class="timeline-body">
-									<p>DDD</p>
-								</div>
-							</div>
-						</li>
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-5.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Outing in Quezon,<br>Chiarra's Birthday</h3>
-									<span class="date"><i class="icon-calendar"></i>September 00, 2015</span>
-								</div>
-								<div class="timeline-body">
-									<p>EEE</p>
-								</div>
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-6.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Triple Birthday Bash</h3>
-									<span class="date"><i class="icon-calendar"></i>November 00, 2015</span>
-								</div>
-								<div class="timeline-body">
-									<p>FFF</p>
-								</div>
-							</div>
-						</li>
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-7.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">1st Anniversary Celebration</h3>
-									<span class="date"><i class="icon-calendar"></i>February 16, 2016</span>
-								</div>
-								<div class="timeline-body">
-									<p>GGG</p>
-								</div>
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-8.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">First batchmate to resign :(</h3>
-									<span class="date"><i class="icon-calendar"></i>December 3, 2016</span>
-								</div>
-								<div class="timeline-body">
-									<p>HHH</p>
-								</div>
-							</div>
-						</li>
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-9.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Promotion...Finally!</h3>
-									<span class="date"><i class="icon-calendar"></i>February 00, 2017</span>
-								</div>
-								<div class="timeline-body">
-									<p>III</p>
-								</div>
-							</div>
-						</li>
-			    	</ul>
-				</div>
-			</div>
+    <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+        <span>Timeline</span>
+        <h2>Our Story</h2>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 col-md-offset-0">
+        <ul class="timeline animate-box">
+            <li class="animate-box">
+                <div class="timeline-badge" style="background-image:url(images/couple-1.jpg);"></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h3 class="timeline-title">First We Meet, Start of Work</h3>
+                        <span class="date"><i class="icon-calendar"></i>February 16, 2015</span>
+                    </div>
+                    <div class="timeline-body">
+                        <p>AAA</p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted animate-box">
+                <div class="timeline-badge" style="background-image:url(images/couple-2.jpg);"></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h3 class="timeline-title">First Birthday Celebration of our batchmate</h3>
+                        <span class="date"><i class="icon-calendar"></i>March 00, 2015</span>
+                    </div>
+                    <div class="timeline-body">
+                        <p>BBB</p>
+                    </div>
+                </div>
+            </li>
+            <li class="animate-box">
+                <div class="timeline-badge" style="background-image:url(images/couple-3.jpg);"></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h3 class="timeline-title">End of Bootcamp Training,<br>Start of Work in Production</h3>
+                        <span class="date"><i class="icon-calendar"></i>April 00, 2015</span>
+                    </div>
+                    <div class="timeline-body">
+                        <p>CCC</p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted animate-box">
+                <div class="timeline-badge" style="background-image:url(images/couple-4.jpg);"></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h3 class="timeline-title">Regularization</h3>
+                        <span class="date"><i class="icon-calendar"></i>August 00, 2015</span>
+                    </div>
+                    <div class="timeline-body">
+                        <p>DDD</p>
+                    </div>
+                </div>
+            </li>
+            <li class="animate-box">
+                <div class="timeline-badge" style="background-image:url(images/couple-5.jpg);"></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h3 class="timeline-title">Outing in Quezon,<br>Chiarra's Birthday</h3>
+                        <span class="date"><i class="icon-calendar"></i>September 00, 2015</span>
+                    </div>
+                    <div class="timeline-body">
+                        <p>EEE</p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted animate-box">
+                <div class="timeline-badge" style="background-image:url(images/couple-6.jpg);"></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h3 class="timeline-title">Triple Birthday Bash</h3>
+                        <span class="date"><i class="icon-calendar"></i>November 00, 2015</span>
+                    </div>
+                    <div class="timeline-body">
+                        <p>FFF</p>
+                    </div>
+                </div>
+            </li>
+            <li class="animate-box">
+                <div class="timeline-badge" style="background-image:url(images/couple-7.jpg);"></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h3 class="timeline-title">1st Anniversary Celebration</h3>
+                        <span class="date"><i class="icon-calendar"></i>February 16, 2016</span>
+                    </div>
+                    <div class="timeline-body">
+                        <p>GGG</p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted animate-box">
+                <div class="timeline-badge" style="background-image:url(images/couple-8.jpg);"></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h3 class="timeline-title">First batchmate to resign :(</h3>
+                        <span class="date"><i class="icon-calendar"></i>December 3, 2016</span>
+                    </div>
+                    <div class="timeline-body">
+                        <p>HHH</p>
+                    </div>
+                </div>
+            </li>
+            <li class="animate-box">
+                <div class="timeline-badge" style="background-image:url(images/couple-9.jpg);"></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h3 class="timeline-title">Promotion...Finally!</h3>
+                        <span class="date"><i class="icon-calendar"></i>February 00, 2017</span>
+                    </div>
+                    <div class="timeline-body">
+                        <p>III</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
