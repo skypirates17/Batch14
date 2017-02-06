@@ -1235,6 +1235,7 @@ form label {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
+  object-fit: cover;
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide blockquote {
   border: none;
