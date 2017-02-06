@@ -3,9 +3,8 @@
         <div class="display-t">
             <div class="display-tc animate-box" data-animate-effect="fadeIn">
                 <h1>Batch 14</h1>
-                <h2>We will be celebrating our 2nd Anniversary</h2>
+                <h2>Countdown to our 2nd Anniversary</h2>
                 <div class="simply-countdown simply-countdown-one"></div>
-                <p><a href="#" class="btn btn-default btn-sm">Countdown</a></p>
             </div>
         </div>
     </div>
