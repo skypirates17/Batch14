@@ -5,6 +5,18 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@font-face {
+  font-family: Helvetica Neue;
+  src: url(../fonts/HelveticaNeue.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Menlo;
+  src: url(../fonts/Menlo-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
