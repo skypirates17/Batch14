@@ -82,6 +82,10 @@
 	<script src="<%=pathWebcontent%>/js/modal.story.js"></script>
 	<link rel="stylesheet" href="<%=pathWebcontent%>/css/modal.story.css">
 	
+	<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyA5UbEPCAI_vx0Srk6Jy_Mbd_kUBeYjJM8"></script>
+	<script src="<%=pathWebcontent%>/js/google.map.js"></script>
+	
 	</head>
 	
 <body>
