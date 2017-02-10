@@ -563,6 +563,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
+  border: 5px solid #d4d4d4;
 }
 @media screen and (max-width: 480px) {
   .timeline > li > .timeline-badge {

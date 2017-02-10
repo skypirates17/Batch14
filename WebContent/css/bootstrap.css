@@ -5350,6 +5350,7 @@ button.close {
   z-index: 1050;
   -webkit-overflow-scrolling: touch;
   outline: 0;
+  background-color: rgba(0,0,0,0.9);
 }
 .modal.fade .modal-dialog {
   -webkit-transform: translate(0, -25%);
@@ -5392,21 +5393,22 @@ button.close {
 }
 
 .modal-backdrop {
+	/*
   position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   z-index: 1040;
-  background-color: #000;
+  background-color: #000;*/
 }
 .modal-backdrop.fade {
   opacity: 0;
   filter: alpha(opacity=0);
 }
 .modal-backdrop.in {
-  opacity: 0.5;
-  filter: alpha(opacity=50);
+  /*opacity: 0.5;
+  filter: alpha(opacity=50);*/
 }
 
 .modal-header {

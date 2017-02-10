@@ -12,12 +12,14 @@
                 <div class="timeline-badge" style="background-image:url(images/couple-1.jpg);"></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h3 class="timeline-title">First We Meet, Start of Work</h3>
+                        <h3 class="timeline-title">Our Humble Beginnings</h3>
                         <span class="date"><i class="icon-calendar"></i>February 16, 2015</span>
                     </div>
                     <div class="timeline-body">
                         <p>AAA</p>
                     </div>
+                    
+                    
                 </div>
             </li>
             <li class="timeline-inverted animate-box">
@@ -33,7 +35,7 @@
                 </div>
             </li>
             <li class="animate-box">
-                <div class="timeline-badge" style="background-image:url(images/couple-3.jpg);"></div>
+                <div class="timeline-badge" style="background-image:url(images/couple-3.jpg); "></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
                         <h3 class="timeline-title">End of Bootcamp Training,<br>Start of Work in Production</h3>
@@ -69,7 +71,7 @@
                 </div>
             </li>
             <li class="timeline-inverted animate-box">
-                <div class="timeline-badge" style="background-image:url(images/couple-6.jpg);"></div>
+                <div class="timeline-badge" style="background-image:url(images/couple-6.jpg);" ></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
                         <h3 class="timeline-title">Triple Birthday Bash</h3>
@@ -119,3 +121,17 @@
         </ul>
     </div>
 </div>
+					
+<!-- The Modal -->
+<div id="picmodal" class="modalnew">
+
+  <!-- The Close Button -->
+  <span class="close" onclick="document.getElementById('story3').style.display='none'">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modalnew-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="captionnew"></div>
+</div>
+
