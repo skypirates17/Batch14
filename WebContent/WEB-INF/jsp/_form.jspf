@@ -1,26 +1,202 @@
-<div class="row animate-box">
-    <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-        <h2>Are You Attending the Batch Anniversary Outing?</h2>
-        <p>Please fill-up the form.<br> Please take note that your response here will be sent to all your batchmates. Thanks.
-        </p>
-    </div>
-</div>
-
-            <div class="col-md-4 col-sm-4">
-                <div class="form-group">
-                    <label for="name" class="sr-only">Name</label>
-                    <input type="name" class="form-control" id="name" placeholder="Name">
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-4">
-                <div class="form-group">
-                    <label for="email" class="sr-only">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Email">
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-4">
-                <button type="submit" class="btn btn-default btn-block">Send Message</button>
-            </div>
-        </form>
-    </div>
-</div>
+				<div class="row animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>Are You Attending the Batch Anniversary Outing?</h2>
+						<p>Please fill-up the form.<br>
+							Please take note that your response here will be sent to all your batchmates. Thanks.
+						</p>
+					</div>
+				</div>
+				<div class="row animate-box">
+					<div class="col-md-10 col-md-offset-1">
+						<form id="OutingForm" class="form-horizontal cloudflare" role="form" >
+							<div class="form-group">
+								<label class="control-label col-sm-3" >Where in Antiplo you want to visit?</label>
+								<div class="col-sm-7">
+									<div class="row">
+										<div class="col-sm-6">
+											<div class=" checkbox checkbox-primary" >
+											
+												<input type="checkbox" name="answer_antipolo" id="antipolo1" value="Antipolo Cathedral" checked="">
+												<label for="antipolo1">Antipolo Cathedral
+												</label>
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<div class=" checkbox checkbox-primary" >
+												
+												<input type="checkbox" name="answer_antipolo" id="antipolo2" value="Hinulugang Taktak">
+												<label for="antipolo2">Hinulugang Taktak
+												</label>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-sm-6">
+											<div class=" checkbox checkbox-primary" >
+											
+												<input type="checkbox" name="answer_antipolo" id="antipolo3" value="Pinto Art Museum">
+												<label for="antipolo3">Pinto Art Museum
+												</label>
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<div class=" checkbox checkbox-primary" >
+												
+												<input type="checkbox" name="answer_antipolo" id="antipolo4" value="Casa Santa">
+												<label for="antipolo4">Casa Santa
+												</label>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-sm-6">
+											<div class=" checkbox checkbox-primary" >
+												
+												<input type="checkbox" name="answer_antipolo" id="antipolo5" value="Boso Boso Church">
+												<label for="antipolo5">Boso Boso Church
+												</label>
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<div class=" checkbox checkbox-primary" >
+												
+												<input type="checkbox" name="answer_antipolo" id="antipolo6" value="Bosay Resort">
+												<label for="antipolo6">Bosay Resort
+												</label>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-sm-6">
+											<div class=" checkbox checkbox-primary" >
+												
+												<input type="checkbox" name="answer_antipolo" id="antipolo7" value="Mystical Cave">
+												<label for="antipolo7">Mystical Cave
+												</label>
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<div class=" checkbox checkbox-primary" >
+												
+												<input type="checkbox" name="answer_antipolo" id="antipolo8" value="Cloud 9, 360 View">
+												<label for="antipolo8">Cloud 9, 360 View
+												</label>
+											</div>
+										</div>
+									</div>
+									<span class="help-block">Please Select at least 8</span>
+								</div>
+							</div>
+							<!-- /.form-group -->
+							<div class="form-group">
+								<label class="control-label col-sm-3">Are you going?</label>
+								<div class="col-sm-9">
+									<div class="row">
+										<div class="col-sm-5">
+										<div class=" radio radio-success" >
+										
+											<input type="radio" name="answer_outing" id="outing1" value="Yes" checked="">
+											<label for="outing1">Yes
+											</label>
+										</div>
+										</div>
+										<div class="col-sm-5">
+										<div class=" radio radio-success" >
+											
+											<input type="radio" name="answer_outing" id="outing2" value="Definitely Yes!">
+											<label for="outing2">Definitely Yes!
+											</label>
+										</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-sm-5">
+											<div class=" radio radio-success" >
+											
+											<input type="radio" name="answer_outing" id="outing3" value="Absolutely Yes!">
+											<label for="outing3">Absolutely Yes!
+											</label>
+											</div>
+										</div>
+										<div class="col-sm-7">
+										<div class=" radio radio-success" >
+	
+											<input type="radio" name="answer_outing" id="outing4" value="Certainly, Definitely, Absolutely Yes!">
+											<label for="outing4">Certainly, Definitely, Absolutely Yes!
+											</label>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-sm-5">
+										<div class=" radio radio-success" >
+											
+											<input type="radio" name="answer_outing" id="outing5" value="Masakit Puson ko">
+											<label for="outing5">Masakit Puson ko
+											</label>
+										</div>
+										</div>
+										<div class="col-sm-5">
+										<div class=" radio radio-success" >
+											
+											<input type="radio" name="answer_outing" id="outing6" value="Wala...Deployed Kami">
+											<label for="outing6">Wala...Deployed Kami
+											</label>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-sm-10">
+										<div class=" radio radio-success" >
+										
+											<input type="radio" name="answer_outing" id="outing7" value="Depende kung libre ni Nick">
+											<label for="outing7">Depende kung libre ni Nick
+											</label>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-sm-11">
+										<div class=" radio radio-success" >
+										
+											<input type="radio" name="answer_outing" id="outing8" value="Guys, I got this, libre ko na (Answer applicable only to Nick)"  disabled="">
+											<label for="outing8">Guys, I got this, libre ko na (Answer applicable only to Nick)
+											</label>
+										</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-sm-5">
+										<div class=" radio radio-success" >
+											
+											<input type="radio" name="answer_outing" id="outing9" value="No">
+											<label for="outing9">No
+											</label>
+											</div>
+										</div>
+									</div>
+									<span class="help-block">Please Select only 1...radio button po yan, di ka makakapili ng marami.</span>
+								</div>
+							</div>
+							<!-- /.form-group -->
+							<div class="form-group">
+								<label for="firstName" class="col-sm-3 control-label">Your Name</label>
+								<div class="col-sm-7">
+									<input type="text" id="fullname" name="fullname" placeholder="Yun totoo" class="form-control" >
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="firstName" class="col-sm-3 control-label">Message</label>
+								<div class="col-sm-7">
+									<textarea id="message" name="message" style="height: 150px; resize: vertical" class="form-control" placeholder="Please leave any message regarding your answers... without drama"></textarea>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-7 col-sm-offset-3">
+									<button type="submit" class="btn btn-primary btn-block">Send Message</button>
+								</div>
+							</div>
+						</form>
+						<!-- /form -->
+					</div>
+				</div>

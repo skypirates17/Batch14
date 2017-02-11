@@ -78,6 +78,13 @@
 	<script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyA5UbEPCAI_vx0Srk6Jy_Mbd_kUBeYjJM8"></script>
 	<script src="<c:url value="/js/google.map.js" />"></script>
 	
+	<!-- New Checkbox and Radio Buttons Design -->
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="<c:url value="/css/radio.checkbox.css" />">
+	
+	<!-- Bootstrap Notify -->
+	<script src="<c:url value="/js/bootstrap-notify.js" />"></script>
+	<link rel="stylesheet" href="<c:url value="/css/font-awesome.css" />">
 	</head>
 	
 <body>

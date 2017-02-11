@@ -2493,7 +2493,8 @@ select[multiple].input-lg,
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #737373;
+  color: #bfbfbf;
+  font-size: 14px;
 }
 
 @media (min-width: 768px) {
@@ -6266,6 +6267,12 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+
+.dropshadow-bottom {
+	-webkit-box-shadow: -1px 5px 13px 2px rgba(138,138,138,1);
+	-moz-box-shadow: -1px 5px 13px 2px rgba(138,138,138,1);
+	box-shadow: -1px 5px 13px 2px rgba(138,138,138,1);
 }
 
 /*# sourceMappingURL=bootstrap.css.map */

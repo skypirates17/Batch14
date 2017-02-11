@@ -46,5 +46,71 @@
     });
 </script>
 
+<script>
+	$('#OutingForm').on('submit',function(e){
+		var url = '<c:url value="/sendMessage.htm" />';
+		var form = JSON.stringify(jQuery(this).serializeArray());
+		e.preventDefault(); // avoid to execute the actual submit of the form.
+		
+	    $.ajax({
+	        type     	: 'POST',
+	        url      	: url,
+	        data     	: {form: form},
+	        success  	: function(resp) {
+	        	showNotification("Input Required Fields!", resp, 3);
+	        },
+	        error		: function() {
+	        	showNotification("Error","There was an error submitting message...",4);
+	        }
+	    });
+	});
+	
+	function showNotification(title, message, type) {
+		//TYPE --> http://bootstrap-notify.remabledesigns.com/
+		// 1 : Info
+		// 2 : Success
+		// 3 : Warning
+		// 4 : Danger / Error
+		
+		if (type == 1) {
+			$.notify({
+				icon: 'fa fa-info-circle',
+				title: '<strong>'+ title +'</strong><br>',
+				message: message
+			},{
+					newest_on_top: true,
+					type: "info"
+			});
+		} else if (type == 2) {
+			$.notify({
+				icon: 'fa fa-check-circle',
+				title: '<strong>'+ title +'</strong><br>',
+				message: message
+			},{
+				newest_on_top: true,
+				type: 'success'
+			});
+		} else if (type == 3) {
+			$.notify({
+				icon: 'fa fa-exclamation-triangle',
+				title: '<strong>'+ title +'</strong><br>',
+				message: message
+			},{
+				newest_on_top: true,
+				type: 'warning'
+			});
+		} else if (type == 4) {
+			$.notify({
+				icon: 'fa fa-times-circle',
+				title: '<strong>'+ title +'</strong><br>',
+				message: message
+			},{
+				newest_on_top: true,
+				type: 'danger'
+			});
+		}
+	}
+</script>
+
 </body>
 </html>

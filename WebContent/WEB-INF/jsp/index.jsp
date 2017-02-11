@@ -20,7 +20,7 @@
         </div>
     </div>
 
-    <div id="fh5co-counter" class="fh5co-bg fh5co-counter" style="background-image:url(images/img_bg_5.jpg);">
+    <div id="fh5co-counter" class="fh5co-bg fh5co-counter" style="background-image:url(images/img_bg_1.jpg);">
         <div class="overlay"></div>
         <div class="container">
             <%@ include file="_counter.jspf" %>
@@ -35,7 +35,7 @@
     </div>
 
 
-    <div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/img_bg_3.jpg);">
+    <div id="fh5co-event" class="fh5co-bg dropshadow-bottom" style="background-image:url(images/img_bg_3.jpg);">
         <div class="overlay"></div>
         <div class="container">
             <%@ include file="_event.jspf" %>
@@ -67,8 +67,8 @@
     </div>
 
 
-    <div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/img_bg_5.jpg);">
-        <div class="overlay"></div>
+    <div id="fh5co-started" class="fh5co-bg dropshadow-bottom" style="background-image:url(images/img_bg_5.jpg);">
+        <div class="overlay" style="background: rgba(0, 0, 0, 0.65)"></div>
         <div class="container">
             <%@ include file="_form.jspf" %>
         </div>

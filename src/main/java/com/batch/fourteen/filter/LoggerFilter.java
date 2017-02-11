@@ -26,7 +26,7 @@ import com.batch.fourteen.utils.SystemProperties;
  */
 public class LoggerFilter implements Filter {
 
-	private final Logger logger = LoggerFactory.getLogger(LoggerFilter.class);
+	private final static Logger logger = LoggerFactory.getLogger(LoggerFilter.class);
 
 	/**
 	 * Called by the web container to indicate to a filter that it is being placed into service. 
