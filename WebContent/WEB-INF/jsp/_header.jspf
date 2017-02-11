@@ -20,63 +20,63 @@
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
 	<meta name="author" content="FREEHTML5.CO" />
 
-	<link rel="icon" href="<c:url value="/resources/images/favicon.ico" />" type="image/x-icon" />
+	<link rel="icon" href="<c:url value="/images/favicon.ico" />" type="image/x-icon" />
 	
 	<!-- jQuery -->
-	<script src="<c:url value="/resources/js/jquery.min.js" />"></script>
+	<script src="<c:url value="/js/jquery.min.js" />"></script>
 	<!-- jQuery Easing -->
-	<script src="<c:url value="/resources/js/jquery.easing.1.3.js" />"></script>
+	<script src="<c:url value="/js/jquery.easing.1.3.js" />"></script>
 	<!-- Bootstrap -->
-	<script src="<c:url value="/resources/js/bootstrap.min.js" />"></script>
+	<script src="<c:url value="/js/bootstrap.min.js" />"></script>
 	<!-- Waypoints -->
-	<script src="<c:url value="/resources/js/jquery.waypoints.min.js" />"></script>
+	<script src="<c:url value="/js/jquery.waypoints.min.js" />"></script>
 	<!-- Carousel -->
-	<script src="<c:url value="/resources/js/owl.carousel.min.js" />"></script>
+	<script src="<c:url value="/js/owl.carousel.min.js" />"></script>
 	<!-- countTo -->
-	<script src="<c:url value="/resources/js/jquery.countTo.js" />"></script>
+	<script src="<c:url value="/js/jquery.countTo.js" />"></script>
 
 	<!-- Stellar -->
-	<script src="<c:url value="/resources/js/jquery.stellar.min.js" />"></script>
+	<script src="<c:url value="/js/jquery.stellar.min.js" />"></script>
 	<!-- Magnific Popup -->
-	<script src="<c:url value="/resources/js/jquery.magnific-popup.min.js" />"></script>
-	<script src="<c:url value="/resources/js/magnific-popup-options.js" />"></script>
+	<script src="<c:url value="/js/jquery.magnific-popup.min.js" />"></script>
+	<script src="<c:url value="/js/magnific-popup-options.js" />"></script>
 
 	<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
-	<script src="<c:url value="/resources/js/simplyCountdown.js" />"></script>
+	<script src="<c:url value="/js/simplyCountdown.js" />"></script>
 	<!-- Main -->
-	<script src="<c:url value="/resources/js/main.js" />"></script>
+	<script src="<c:url value="/js/main.js" />"></script>
 	
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="<c:url value="/resources/css/animate.css" />">
+	<link rel="stylesheet" href="<c:url value="/css/animate.css" />">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="<c:url value="/resources/css/icomoon.css" />">
+	<link rel="stylesheet" href="<c:url value="/css/icomoon.css" />">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="<c:url value="/resources/css/bootstrap.css" />">
+	<link rel="stylesheet" href="<c:url value="/css/bootstrap.css" />">
 
 	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="<c:url value="/resources/css/magnific-popup.css" />">
+	<link rel="stylesheet" href="<c:url value="/css/magnific-popup.css" />">
 
 	<!-- Owl Carousel  -->
-	<link rel="stylesheet" href="<c:url value="/resources/css/owl.carousel.min.css" />">
-	<link rel="stylesheet" href="<c:url value="/resources/css/owl.theme.default.min.css" />">
+	<link rel="stylesheet" href="<c:url value="/css/owl.carousel.min.css" />">
+	<link rel="stylesheet" href="<c:url value="/css/owl.theme.default.min.css" />">
 
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="<c:url value="/resources/css/style.css" />">
+	<link rel="stylesheet" href="<c:url value="/css/style.css" />">
 
 	<!-- Modernizr JS -->
-	<script src="<c:url value="/resources/js/modernizr-2.6.2.min.js" />"></script>
+	<script src="<c:url value="/js/modernizr-2.6.2.min.js" />"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
 	<!-- Modal in Story / Timeline -->
-	<script src="<c:url value="/resources/js/modal.story.js" />"></script>
-	<link rel="stylesheet" href="<c:url value="/resources/css/modal.story.css" />">
+	<script src="<c:url value="/js/modal.story.js" />"></script>
+	<link rel="stylesheet" href="<c:url value="/css/modal.story.css" />">
 	
 	<!-- Google Map -->
 	<script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyA5UbEPCAI_vx0Srk6Jy_Mbd_kUBeYjJM8"></script>
-	<script src="<c:url value="/resources/js/google.map.js" />"></script>
+	<script src="<c:url value="/js/google.map.js" />"></script>
 	
 	</head>
 	

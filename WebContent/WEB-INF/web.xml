@@ -12,7 +12,7 @@
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
 			<param-value>
-				/WEB-INF/classes/dispatcher-servlet.xml
+				classpath:dispatcher-servlet.xml
 			</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
