@@ -5,8 +5,7 @@ import java.net.UnknownHostException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,26 +15,29 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.batch.fourteen.pojo.OutingForm;
-import com.batch.fourteen.service.UserDatastoreService;
+import com.batch.fourteen.pojo.User;
+import com.batch.fourteen.service.IUserService;
 import com.batch.fourteen.utils.JSONParser;
 import com.batch.fourteen.utils.Util;
 import com.google.gson.Gson;
 
 @Controller
 public class ApplicationController {
-
+	
+	private final static Logger logger = Logger.getLogger(ApplicationController.class);
+	
 	@Autowired
-	UserDatastoreService userDatastoreService;
-
-	private final static Logger logger = LoggerFactory.getLogger(ApplicationController.class);
+	private IUserService userService;
 	
 	@RequestMapping(value = { "/index" }, method = { RequestMethod.GET })
 	public ModelAndView doGet(HttpServletRequest request,
 			HttpServletResponse response) throws UnknownHostException {
-		logger.debug("" + request.getParameter("MESSAGE"));
-		logger.debug("" + request.getParameter("firstName"));
-		logger.debug("JOHNREY");
-		return new ModelAndView("index");
+		
+		User user = userService.getUser("172.16.138.72");
+		
+		logger.debug(user.toString());
+		
+		return new ModelAndView("index").addObject("USER", user);
 	}
 	
 	@RequestMapping("/login")
