@@ -9,160 +9,21 @@
         <div class="col-md-12 animate-box">
             <div class="wrap-testimony">
                 <div class="owl-carousel-fullwidth">
-                    <div class="item">
-                        <div class="testimony-slide active text-center">
-                            <figure>
-                                <img src="<c:url value="/images/pix/nick.jpg" />" style="" alt="user">
-                            </figure>
-                            <span>Nick Terence Tolentino</span>
-                            <blockquote>
-                                <p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"</p>
-                            </blockquote>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimony-slide active text-center">
-                            <figure>
-                                <img src="<c:url value="/images/pix/blenda.jpg" />" alt="user">
-                            </figure>
-                            <span>Blenda Rose Serat</span>
-                            <blockquote>
-                                <p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, at the coast of the Semantics, a large language ocean."</p>
-                            </blockquote>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimony-slide active text-center">
-                            <figure>
-                                <img src="<c:url value="/images/pix/angelo.jpg" />" alt="user">
-                            </figure>
-                            <span>Angelo Bacolod</span>
-                            <blockquote>
-                                <p>"Far far away, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
-                            </blockquote>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimony-slide active text-center">
-                            <figure>
-                                <img src="<c:url value="/images/pix/chiara.jpg" />" alt="user">
-                            </figure>
-                            <span>Chiara Jane Abante</span>
-                            <blockquote>
-                                <p>"Far far away, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
-                            </blockquote>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimony-slide active text-center">
-                            <figure>
-                                <img src="<c:url value="/images/pix/jo.jpg" />" alt="user">
-                            </figure>
-                            <span>Jonathan Perilla</span>
-                            <blockquote>
-                                <p>"Far far away, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
-                            </blockquote>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimony-slide active text-center">
-                            <figure>
-                                <img src="<c:url value="/images/pix/doro.jpg" />" alt="user">
-                            </figure>
-                            <span>Dorothy Ilaine Ecalne</span>
-                            <blockquote>
-                                <p>"Far far away, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
-                            </blockquote>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimony-slide active text-center">
-                            <figure>
-                                <img src="<c:url value="/images/pix/john.jpg" />" alt="user">
-                            </figure>
-                            <span>Johnrey Angolluan</span>
-                            <blockquote>
-                                <p>"Far far away, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
-                            </blockquote>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimony-slide active text-center">
-                            <figure>
-                                <img src="<c:url value="/images/pix/kris.jpg" />" alt="user">
-                            </figure>
-                            <span>Kristina Gumarao</span>
-                            <blockquote>
-                                <p>"Far far away, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
-                            </blockquote>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimony-slide active text-center">
-                            <figure>
-                                <img src="<c:url value="/images/pix/alex.jpg" />" alt="user">
-                            </figure>
-                            <span>Alexis John Cantiga</span>
-                            <blockquote>
-                                <p>"Far far away, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
-                            </blockquote>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimony-slide active text-center">
-                            <figure>
-                                <img src="<c:url value="/images/pix/menisa.jpg" />" alt="user">
-                            </figure>
-                            <span>Menisa Bella Mendoza</span>
-                            <blockquote>
-                                <p>"Far far away, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
-                            </blockquote>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimony-slide active text-center">
-                            <figure>
-                                <img src="<c:url value="/images/pix/onat.jpg" />" alt="user">
-                            </figure>
-                            <span>Jonathan Anastacio</span>
-                            <blockquote>
-                                <p>"Far far away, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
-                            </blockquote>
-                        </div>
-                    </div>
-                     <div class="item">
-                        <div class="testimony-slide active text-center">
-                            <figure>
-                                <img src="<c:url value="/images/pix/rona.jpg" />" alt="user">
-                            </figure>
-                            <span>Ronalene Maggay</span>
-                            <blockquote>
-                                <p>"Far far away, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
-                            </blockquote>
-                        </div>
-                    </div>
-                     <div class="item">
-                        <div class="testimony-slide active text-center">
-                            <figure>
-                                <img src="<c:url value="/images/pix/rassel.jpg" />" alt="user">
-                            </figure>
-                            <span>Rassel Estrella</span>
-                            <blockquote>
-                                <p>"Far far away, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
-                            </blockquote>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimony-slide active text-center">
-                            <figure>
-                                <img src="<c:url value="/images/pix/ryan.jpg" />" alt="user">
-                            </figure>
-                            <span>Ryan Jorell Macatuno</span>
-                            <blockquote>
-                                <p>"Far far away, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
-                            </blockquote>
-                        </div>
-                    </div>
+                
+	                <c:forEach items="${USER.messages}" var="messages">
+	                	<div class="item">
+	                        <div class="testimony-slide active text-center">
+	                            <figure>
+	                                <img src="<c:url value="/images/pix/${messages.picFileName}" />" style="" alt="${messages.name}">
+	                            </figure>
+	                            <span>${messages.name}</span>
+	                            <blockquote>
+	                                <p>"${messages.message}"</p>
+	                            </blockquote>
+	                        </div>
+	                    </div>
+	                </c:forEach>
+                
                 </div>
             </div>
         </div>

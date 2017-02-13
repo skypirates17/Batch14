@@ -3,12 +3,54 @@
         <div id="fh5co-logo"><a href="index.html">Anniversary<strong>.</strong></a></div>
     </div>
     <div class="col-xs-10 text-right menu-1">
-        <ul>
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="about.html">Story</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="contact.html">Contact</a></li>
+        <ul id="menuscroll">
+            <li><a href="#hello" >Hello</a></li>
+            <li><a href="#count">Count</a></li>
+            <li><a href="#story">Our Story</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#antipolo">Antipolo City</a></li>
+            <li><a href="#location">Map</a></li>
+            <li><a href="#messages">Messages</a></li>
+            <li><a href="#form">Form</a></li>
         </ul>
     </div>
 </div>
+
+<script>
+
+/*
+	$(document).on('click','#menuscroll > a',function(e){
+
+		 e.preventDefault();
+
+		 $('#page').animate({
+		        scrollTop: $( $(this).attr('val') ).offset().top
+		    }, 500, 'easeInOutExpo');
+
+		 return false;
+
+		});
+
+	
+	var $root = $('html, body');
+	$('#storyhref').click(function() {
+	    var href = $.attr(this, 'href');
+	    $root.animate({
+	        scrollTop: $(href).offset().top - 120
+	    }, 5500, function () {
+	        window.location.hash = href;
+	    });
+	    return false;
+	});
+	*/
+$('#menuscroll > a').click(function(event){
+	event.preventDefault();
+    $('#page').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500, 'easeInOutExpo');
+    
+    return false;
+    
+});
+
+</script>

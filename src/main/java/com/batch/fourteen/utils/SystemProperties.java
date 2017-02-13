@@ -1,12 +1,9 @@
 package com.batch.fourteen.utils;
 
 import java.net.InetAddress;
-
 import javax.servlet.http.HttpServletRequest;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
+import org.apache.log4j.Logger;
 /**
  * SystemProperties is a user-defined class used to retrieve server and client IP Address and Host Name
  * 
@@ -23,7 +20,7 @@ public class SystemProperties {
 	
 	private HttpServletRequest request;
 	
-	private final Logger logger = LoggerFactory.getLogger(SystemProperties.class);
+	private static final Logger logger = Logger.getLogger(SystemProperties.class);
 	
 	public SystemProperties(HttpServletRequest request) {
 		this.request = request;
@@ -51,7 +48,8 @@ public class SystemProperties {
 		try {
 			this.clientIpAddress = request.getRemoteAddr(); 
 	        InetAddress inetAddress = InetAddress.getByName(request.getRemoteAddr());
-	        this.clientComputerName =  inetAddress.getHostName();
+	    
+	        this.clientComputerName =  request.getRemoteHost();//inetAddress.getHostName();
 		} catch (Exception e) {
 			logger.error("Unable to get Client System Properties {} " + e);
 			e.printStackTrace();

@@ -15,84 +15,84 @@
 		<picfilename>john.jpg</picfilename>
 	</batch>
 
-	<batch id="1" ip="172.16.138.72" pcname="CPU278">
+	<batch id="1" ip="192.168.1.3" pcname="CPU278">
 		<name>Johnrey Angolluan</name>
 		<nickname>John</nickname>
 		<email>johnangolluan@aeoncredit.com.ph</email>
 		<picfilename>john.jpg</picfilename>
 	</batch>
 	
-	<batch id="2" ip="172.16.138.72" pcname="CPU278">
+	<batch id="2" ip="172.16.138.11" pcname="CPU278">
 		<name>Kristina Gumarao</name>
 		<nickname>Kris</nickname>
 		<email>kgumarao@aeoncredit.com.ph</email>
 		<picfilename>kris.jpg</picfilename>
 	</batch>
 	
-	<batch id="3" ip="172.16.138.72" pcname="CPU278">
+	<batch id="3" ip="172.16.138.22" pcname="CPU278">
 		<name>Rassel Estrella</name>
 		<nickname>Rass</nickname>
 		<email>restrella@aeoncredit.com.ph</email>
 		<picfilename>rassel.jpg</picfilename>
 	</batch>
 	
-	<batch id="4" ip="172.16.138.72" pcname="CPU278">
+	<batch id="4" ip="172.16.138.33" pcname="CPU278">
 		<name>Menisa Bella Mendoza</name>
 		<nickname>Menisa</nickname>
 		<email>mbmendoza@aeoncredit.com.ph</email>
 		<picfilename>menisa.jpg</picfilename>
 	</batch>
 	
-	<batch id="5" ip="172.16.138.72" pcname="CPU278">
+	<batch id="5" ip="172.16.138.44" pcname="CPU278">
 		<name>Nick Terence Tolentino</name>
 		<nickname>Nick</nickname>
 		<email>ntolentino@aeoncredit.com.ph</email>
 		<picfilename>nick.jpg</picfilename>
 	</batch>
 	
-	<batch id="6" ip="172.16.138.72" pcname="CPU278">
+	<batch id="6" ip="172.16.138.55" pcname="CPU278">
 		<name>Jonathan Perilla</name>
 		<nickname>Jo</nickname>
 		<email>jperilla@aeoncredit.com.ph</email>
 		<picfilename>jo.jpg</picfilename>
 	</batch>
 	
-	<batch id="7" ip="172.16.138.72" pcname="CPU278">
+	<batch id="7" ip="172.16.138.66" pcname="CPU278">
 		<name>Ronalene Maggay</name>
 		<nickname>Rona</nickname>
 		<email>rmaggay@aeoncredit.com.ph</email>
 		<picfilename>rona.jpg</picfilename>
 	</batch>
 	
-	<batch id="8" ip="172.16.138.72" pcname="CPU278">
+	<batch id="8" ip="172.16.138.77" pcname="CPU278">
 		<name>Chiarra Jane Abante</name>
 		<nickname>Cha</nickname>
 		<email>cabante@aeoncredit.com.ph</email>
 		<picfilename>chiarra.jpg</picfilename>
 	</batch>
 	
-	<batch id="9"  ip="172.16.138.72" pcname="CPU278">
+	<batch id="9"  ip="172.16.138.78" pcname="CPU278">
 		<name>Blenda Rose Serat</name>
 		<nickname>Ble</nickname>
 		<email>bserat@aeoncredit.com.ph</email>
 		<picfilename>blenda.jpg</picfilename>
 	</batch>
 	
-	<batch id="10" ip="172.16.138.72" pcname="CPU278">
+	<batch id="10" ip="172.16.138.79" pcname="CPU278">
 		<name>Jonathan Emir Anastacio</name>
 		<nickname>Onat</nickname>
 		<email>janastacio@aeoncredit.com.ph</email>
 		<picfilename>onat.jpg</picfilename>
 	</batch>
 	
-	<batch id="11" ip="172.16.138.72" pcname="CPU278">
+	<batch id="11" ip="172.16.138.00" pcname="CPU278">
 		<name>Dorothy Ilaine Ecalne</name>
 		<nickname>Doro</nickname>
 		<email>decalne@aeoncredit.com.ph</email>
 		<picfilename>doro.jpg</picfilename>
 	</batch>
 	
-	<batch id="12" ip="172.16.138.72" pcname="CPU278">
+	<batch id="12" ip="172.16.138.99" pcname="CPU278">
 		<name>Alexis John Cantiga</name>
 		<nickname>Alex</nickname>
 		<email>acantiga@aeoncredit.com.ph</email>

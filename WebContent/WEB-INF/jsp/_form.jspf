@@ -159,7 +159,7 @@
 										<div class="col-sm-11">
 										<div class=" radio radio-success" >
 										
-											<input type="radio" name="answer_outing" id="outing8" value="Guys, I got this, libre ko na (Answer applicable only to Nick)"  disabled="">
+											<input type="radio" name="answer_outing" id="outing8" value="Guys, I got this, libre ko na (Answer applicable only to Nick)" <c:if test="${USER.id != 5}">disabled=""</c:if> >
 											<label for="outing8">Guys, I got this, libre ko na (Answer applicable only to Nick)
 											</label>
 										</div>

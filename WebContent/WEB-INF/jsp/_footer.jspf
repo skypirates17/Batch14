@@ -25,6 +25,7 @@
 
 
 <script>
+	
     var d = new Date(2017, 01, 16);
     /* instead of 02 for Feb month, set it as 01, as months are indexed from 0 in js. */
 
@@ -37,12 +38,13 @@
         day: d.getDate()
     });
 
+    
     //jQuery example
     $('#simply-countdown-losange').simplyCountdown({
         year: d.getFullYear(),
         month: d.getMonth() + 1,
         day: d.getDate(),
-        enableUtc: false
+        enableUtc: true
     });
 </script>
 
@@ -57,7 +59,8 @@
 	        url      	: url,
 	        data     	: {form: form},
 	        success  	: function(resp) {
-	        	showNotification("Input Required Fields!", resp, 3);
+	        	var obj = jQuery.parseJSON( resp );
+	        	showNotification(obj.TITLE, obj.MESSAGE, obj.ERRORTYPE);
 	        },
 	        error		: function() {
 	        	showNotification("Error","There was an error submitting message...",4);

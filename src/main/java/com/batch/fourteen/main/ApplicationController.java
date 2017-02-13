@@ -1,6 +1,8 @@
 package com.batch.fourteen.main;
 
 import java.net.UnknownHostException;
+import java.util.HashMap;
+import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -18,64 +20,56 @@ import com.batch.fourteen.pojo.OutingForm;
 import com.batch.fourteen.pojo.User;
 import com.batch.fourteen.service.IUserService;
 import com.batch.fourteen.utils.JSONParser;
+import com.batch.fourteen.utils.SystemProperties;
 import com.batch.fourteen.utils.Util;
 import com.google.gson.Gson;
 
 @Controller
 public class ApplicationController {
-	
+
 	private final static Logger logger = Logger.getLogger(ApplicationController.class);
-	
+
 	@Autowired
 	private IUserService userService;
-	
+
 	@RequestMapping(value = { "/index" }, method = { RequestMethod.GET })
-	public ModelAndView doGet(HttpServletRequest request,
-			HttpServletResponse response) throws UnknownHostException {
-		
-		User user = userService.getUser("172.16.138.72");
-		
+	public ModelAndView doGet(HttpServletRequest request, HttpServletResponse response) throws UnknownHostException {
+
+		User user = userService.getUser(new SystemProperties(request).getClientIpAddress());
+
 		logger.debug(user.toString());
-		
+
 		return new ModelAndView("index").addObject("USER", user);
-	}
-	
-	@RequestMapping("/login")
-	public ModelAndView login(HttpServletRequest request, HttpServletResponse response) {
-		//
-
-		return new ModelAndView("welcome");
-	}
-
-	@RequestMapping("/addUser")
-	public ModelAndView addUser(HttpServletRequest request, HttpServletResponse response) {
-		
-		//
-
-		return new ModelAndView("welcome");
 	}
 
 	@RequestMapping(value = { "/sendMessage" }, method = { RequestMethod.POST })
 	@ResponseBody
-	public String sendMessage(HttpServletRequest request, HttpServletResponse response,
-			@RequestParam String form) {
-		
+	public String sendMessage(HttpServletRequest request, HttpServletResponse response, @RequestParam String form) {
+		Map<String, Object> display = new HashMap<>();
 		OutingForm outingForm = JSONParser.getOutingForm(form);
-		
+
+		String title = "Required Fields";
+		String message = "";
+		int errortype = 3;
 		if (Util.isNullOrEmpty(outingForm.getFullName())) {
-			return "Please input your name";
-		}
-		if (Util.isNullOrEmpty(outingForm.getMessage())) {
-			return "Please input message";
-		}
-		if (Util.isNullOrEmpty(outingForm.getAnswerOuting())) {
-			return "Please select Are you Going? options";
-		}
-		if (Util.isNullOrEmpty(outingForm.getAnswerAntipolo())) {
-			return "Please select any places in Antipolo";
+			message = "Please input your name";
+		} else if (Util.isNullOrEmpty(outingForm.getMessage())) {
+			message = "Please input message";
+		} else if (Util.isNullOrEmpty(outingForm.getAnswerOuting())) {
+			message = "Please select Are you Going? options";
+		} else if (Util.isNullOrEmpty(outingForm.getAnswerAntipolo())) {
+			message = "Please select any places in Antipolo";
+		} else {
+			// send email method
+			title = "Message Sent";
+			message = "Message successfully sent thru email.";
+			errortype = 2;
 		}
 		
-		return new Gson().toJson(outingForm);
+		display.put("TITLE", title);
+		display.put("MESSAGE", message);
+		display.put("ERRORTYPE", errortype);
+		return new Gson().toJson(display);
 	}
 
 }

@@ -20,7 +20,6 @@
 
 		<!-- Logging -->
 		<log4j.version>1.2.17</log4j.version>
-		<slf4j.version>1.7.21</slf4j.version>
 
 		<!-- Database Connection -->
 		<postgresql.version>9.1-901-1.jdbc4</postgresql.version>
@@ -34,12 +33,17 @@
 
 		<javax.servlet-api.version>3.1.0</javax.servlet-api.version>
 		<jstl.version>1.2</jstl.version>
-		
+
 		<json.version>20160810</json.version>
 		<gson.version>2.8.0</gson.version>
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.4.7</version>
+		</dependency>
 		<!-- Spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -66,7 +70,8 @@
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
-			<version>${slf4j.version}</version>
+			<version>1.7.5</version>
+			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>log4j</groupId>
@@ -116,12 +121,7 @@
 			<artifactId>json</artifactId>
 			<version>${json.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>com.google.code.gson</groupId>
-			<artifactId>gson</artifactId>
-			<version>${gson.version}</version>
-		</dependency>
-		
+
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
@@ -132,8 +132,8 @@
 			<artifactId>jstl</artifactId>
 			<version>${jstl.version}</version>
 		</dependency>
-		
-		
+
+
 		<dependency>
 			<groupId>commons-lang</groupId>
 			<artifactId>commons-lang</artifactId>

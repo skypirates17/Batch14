@@ -2,6 +2,7 @@ package com.batch.fourteen.utils;
 
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -114,7 +115,8 @@ public class XMLParser {
 			logger.debug("Error while parsing xml for Messages : " + e);
 			e.printStackTrace();
 		}
-
+		
+		Collections.shuffle(messages);
 		return messages;
 	}
 	
