@@ -7,7 +7,7 @@
 					</div>
 				</div>
 				<div class="row animate-box">
-					<div class="col-md-10 col-md-offset-1">
+					<div class="col-md-10 col-md-offset-1 " id="mynewform">
 						<form id="OutingForm" class="form-horizontal cloudflare" role="form" >
 							<div class="form-group">
 								<label class="control-label col-sm-3" >Where in Antiplo you want to visit?</label>

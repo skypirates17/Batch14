@@ -61,6 +61,10 @@
 	        success  	: function(resp) {
 	        	var obj = jQuery.parseJSON( resp );
 	        	showNotification(obj.TITLE, obj.MESSAGE, obj.ERRORTYPE);
+	        	if (obj.ERRORTYPE == 2) {
+	        		var newdivcontent = '<div class="alert alert-success"><strong>Success!</strong><br>Thanks! Your message has been successfully sent. <br>And please avoid from sending this form again as NID may track us ;)</div>';
+	        		$("#mynewform").html(newdivcontent);
+	        	}
 	        },
 	        error		: function() {
 	        	showNotification("Error","There was an error submitting message...",4);

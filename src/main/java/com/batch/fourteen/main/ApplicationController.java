@@ -6,6 +6,7 @@ import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +19,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.batch.fourteen.pojo.OutingForm;
 import com.batch.fourteen.pojo.User;
+import com.batch.fourteen.service.IEmailService;
 import com.batch.fourteen.service.IUserService;
 import com.batch.fourteen.utils.JSONParser;
 import com.batch.fourteen.utils.SystemProperties;
@@ -31,12 +33,16 @@ public class ApplicationController {
 
 	@Autowired
 	private IUserService userService;
+	
+	@Autowired
+	private IEmailService emailService;
 
 	@RequestMapping(value = { "/index" }, method = { RequestMethod.GET })
 	public ModelAndView doGet(HttpServletRequest request, HttpServletResponse response) throws UnknownHostException {
-
+		
+		HttpSession session = request.getSession();
 		User user = userService.getUser(new SystemProperties(request).getClientIpAddress());
-
+		session.setAttribute("user", user);
 		logger.debug(user.toString());
 
 		return new ModelAndView("index").addObject("USER", user);
@@ -64,6 +70,19 @@ public class ApplicationController {
 			title = "Message Sent";
 			message = "Message successfully sent thru email.";
 			errortype = 2;
+			
+			try {
+				HttpSession session = request.getSession();
+				emailService.sendEmail((User) session.getAttribute("user"), outingForm);
+			} catch (Exception e) {
+				title = "Error!";
+				message = "Problem encountered while sending emails.";
+				errortype = 4;
+				
+				logger.debug(e.getMessage());
+				e.printStackTrace();
+				
+			}
 		}
 		
 		display.put("TITLE", title);
