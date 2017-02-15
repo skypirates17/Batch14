@@ -1,3 +1,4 @@
+
 <%@ include file="_header.jspf" %>
 
 
@@ -21,12 +22,11 @@
         </div>
     </div>
 
-    <div id="fh5co-counter" class="fh5co-bg fh5co-counter" style="background-image:url(images/img_bg_1.jpg);">
+    <div id="fh5co-event " class="fh5co-bg" >
         <a name="count"></a>
-        <div class="overlay"></div>
-        <div class="container">
+
             <%@ include file="_counter.jspf" %>
-        </div>
+
     </div>
 
 

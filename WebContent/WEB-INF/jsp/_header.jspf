@@ -85,6 +85,12 @@
 	<!-- Bootstrap Notify -->
 	<script src="<c:url value="/js/bootstrap-notify.js" />"></script>
 	<link rel="stylesheet" href="<c:url value="/css/font-awesome.css" />">
+	
+	<!-- For Slides -->
+	  <script src="<c:url value="/js/jquery.easing.1.3.js"/>"></script>
+	  <script src="<c:url value="/js/jquery.animate-enhanced.min.js"/>"></script>
+	  <script src="<c:url value="/js/jquery.superslides.js"/>" type="text/javascript" charset="utf-8"></script>
+	   <link rel="stylesheet" href="<c:url value="/css/superslides.css"/>">
 	</head>
 	
 <body>
