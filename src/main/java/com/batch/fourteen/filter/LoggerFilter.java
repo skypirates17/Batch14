@@ -10,12 +10,12 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.log4j.Logger;
 import org.apache.log4j.MDC;
 
-
 import com.batch.fourteen.utils.SystemProperties;
+
+
 
 /**
  * LoggerFilter is a custom Filter used to add parameters that can be used in logback.xml file.
@@ -26,7 +26,7 @@ import com.batch.fourteen.utils.SystemProperties;
  */
 public class LoggerFilter implements Filter {
 
-	private final static Logger logger = LoggerFactory.getLogger(LoggerFilter.class);
+	private final static Logger logger = Logger.getLogger(LoggerFilter.class);
 
 	/**
 	 * Called by the web container to indicate to a filter that it is being placed into service. 
