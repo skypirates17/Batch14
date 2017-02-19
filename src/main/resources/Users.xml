@@ -22,7 +22,7 @@
 		<picfilename>john.jpg</picfilename>
 	</batch>
 
-	<batch id="1" ip="192.168.1.3" pcname="CPU279">
+	<batch id="1" ip="192.168.1.2" pcname="CPU279">
 		<name>Johnrey Angolluan</name>
 		<nickname>John</nickname>
 		<email>johnangolluan@aeoncredit.com.ph</email>

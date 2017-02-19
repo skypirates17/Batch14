@@ -38,17 +38,17 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="syslib/trimflt.jar">
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/gson-2.8.0.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="syslib/gson-2.8.0.jar">
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/javax-mail-1.4.7.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="syslib/javax-mail-1.4.7.jar">
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/trimflt.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>

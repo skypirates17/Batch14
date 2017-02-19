@@ -49,7 +49,11 @@
 </script>
 
 <script>
+
 	$('#OutingForm').on('submit',function(e){
+		var btn = $('#submit-form-button');
+	    btn.button('loading');
+	    
 		var url = '<c:url value="/sendMessage.htm" />';
 		var form = JSON.stringify(jQuery(this).serializeArray());
 		e.preventDefault(); // avoid to execute the actual submit of the form.
@@ -61,6 +65,7 @@
 	        success  	: function(resp) {
 	        	var obj = jQuery.parseJSON( resp );
 	        	showNotification(obj.TITLE, obj.MESSAGE, obj.ERRORTYPE);
+	        	btn.button('reset');
 	        	if (obj.ERRORTYPE == 2) {
 	        		var newdivcontent = '<div class="alert alert-success"><strong>Success!</strong><br>Thanks! Your message has been successfully sent. <br>And please avoid from sending this form again as NID may track us ;)</div>';
 	        		$("#mynewform").html(newdivcontent);
@@ -68,8 +73,10 @@
 	        },
 	        error		: function() {
 	        	showNotification("Error","There was an error submitting message...",4);
+	        	btn.button('reset');
 	        }
 	    });
+	    
 	});
 	
 	function showNotification(title, message, type) {

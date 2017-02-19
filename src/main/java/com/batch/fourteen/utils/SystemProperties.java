@@ -49,7 +49,7 @@ public class SystemProperties {
 			this.clientIpAddress = request.getRemoteAddr(); 
 	        InetAddress inetAddress = InetAddress.getByName(request.getRemoteAddr());
 	    
-	        this.clientComputerName =  request.getRemoteHost();//inetAddress.getHostName();
+	        this.clientComputerName = inetAddress.getHostName();
 		} catch (Exception e) {
 			logger.error("Unable to get Client System Properties {} " + e);
 			e.printStackTrace();

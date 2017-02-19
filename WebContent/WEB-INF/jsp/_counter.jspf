@@ -1,39 +1,47 @@
-<div id="slides">
-		<div class="slides-container">
-			<img src="<c:url value="/images/slide/slide (1).jpg"/>" alt="">
-			<img src="<c:url value="/images/slide/slide (2).jpg"/>" alt="">
-			<img src="<c:url value="/images/slide/slide (3).jpg"/>" alt="">
-			<img src="<c:url value="/images/slide/slide (4).jpg"/>" alt="">
-			<img src="<c:url value="/images/slide/slide (5).jpg"/>" alt="">
-			<img src="<c:url value="/images/slide/slide (6).jpg"/>" alt="">
-			<img src="<c:url value="/images/slide/slide (7).jpg"/>" alt="">
-			<img src="<c:url value="/images/slide/slide (8).jpg"/>" alt="">
-			<img src="<c:url value="/images/slide/slide (9).jpg"/>" alt="">
-			<img src="<c:url value="/images/slide/slide (10).jpg"/>" alt="">
-			<img src="<c:url value="/images/slide/slide (11).jpg"/>" alt="">
-			<img src="<c:url value="/images/slide/slide (12).jpg"/>" alt="">
-			<img src="<c:url value="/images/slide/slide (13).jpg"/>" alt="">
-			<img src="<c:url value="/images/slide/slide (14).jpg"/>" alt="">
-			<img src="<c:url value="/images/slide/slide (15).jpg"/>" alt="">
-			<img src="<c:url value="/images/slide/slide (16).jpg"/>" alt="">
-			<img src="<c:url value="/images/slide/slide (17).jpg"/>" alt="">
-			<img src="<c:url value="/images/slide/slide (18).jpg"/>" alt="">
-			<img src="<c:url value="/images/slide/slide (19).jpg"/>" alt="">
-			<img src="<c:url value="/images/slide/slide (20).jpg"/>" alt="">
-		</div>
-		<nav class="slides-navigation">
-			<a href="" class="next"><i class="fa fa-chevron-right fa-3x faa-pulse"></i></a>
-			<a href="" class="prev"><i class="fa fa-chevron-left fa-3x faa-pulse"></i></a>
-		</nav>
-	</div>
-	
-	<script>
-			$(function() {
-			  $('#slides').superslides({
-			    hashchange: true
-			  });
+<div class="row">
+    <div class="display-t">
+        <div class="display-tc">
+            <div class="col-md-3 col-sm-6 animate-box">
+                <div class="feature-center">
+                    <span class="icon">
+									<i class="icon-users"></i>
+								</span>
 
-			});
-			
-			
-		</script>
+                    <span class="counter js-counter" data-from="0" data-to="500" data-speed="5000" data-refresh-interval="50">1</span>
+                    <span class="counter-label">Estimated Guest</span>
+
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 animate-box">
+                <div class="feature-center">
+                    <span class="icon">
+									<i class="icon-user"></i>
+								</span>
+
+                    <span class="counter js-counter" data-from="0" data-to="1000" data-speed="5000" data-refresh-interval="50">1</span>
+                    <span class="counter-label">We Catter</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 animate-box">
+                <div class="feature-center">
+                    <span class="icon">
+									<i class="icon-calendar"></i>
+								</span>
+                    <span class="counter js-counter" data-from="0" data-to="402" data-speed="5000" data-refresh-interval="50">1</span>
+                    <span class="counter-label">Events Done</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 animate-box">
+                <div class="feature-center">
+                    <span class="icon">
+									<i class="icon-clock"></i>
+								</span>
+
+                    <span class="counter js-counter" data-from="0" data-to="2345" data-speed="5000" data-refresh-interval="50">1</span>
+                    <span class="counter-label">Hours Spent</span>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

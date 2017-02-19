@@ -65,8 +65,13 @@ public class ApplicationController {
 			message = "Please select Are you Going? options";
 		} else if (Util.isNullOrEmpty(outingForm.getAnswerAntipolo())) {
 			message = "Please select any places in Antipolo";
+		} else if (Util.toString(outingForm.getFullName(), true).length() > 100) {
+			title = "Field Length!";
+			message = "Allowable text length for Name field is upto 100 characters only.";
+		} else if (Util.toString(outingForm.getMessage(), true).length() > 250) {
+			title = "Field Length!";
+			message = "Allowable text length for Message field is upto 250 characters only.";
 		} else {
-			// send email method
 			title = "Message Sent";
 			message = "Message successfully sent thru email.";
 			errortype = 2;
