@@ -22,7 +22,8 @@
 
 		<!-- Logging -->
 		<log4j.version>1.2.17</log4j.version>
-
+		<slf4j-api.version>1.7.5</slf4j-api.version>
+			
 		<!-- Database Connection -->
 		<postgresql.version>9.1-901-1.jdbc4</postgresql.version>
 		<commons-dbcp.version>1.4</commons-dbcp.version>
@@ -40,11 +41,6 @@
 	</properties>
 
 	<dependencies>
-		<dependency>
-			<groupId>javax.mail</groupId>
-			<artifactId>mail</artifactId>
-			<version>1.4.7</version>
-		</dependency>
 		<!-- Spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -71,7 +67,7 @@
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
-			<version>1.7.5</version>
+			<version>${slf4j-api.version}</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
@@ -146,6 +142,7 @@
 			<version>${commons-collections.version}</version>
 		</dependency>
 
+		<!-- Reference Libraries -->
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
@@ -160,7 +157,6 @@
 			<scope>system</scope>
 			<systemPath>${basedir}/WebContent/WEB-INF/lib/javax-mail-1.4.7.jar</systemPath>
 		</dependency>
-
 		<dependency>
 			<groupId>com.cj</groupId>
 			<artifactId>trimflt</artifactId>
