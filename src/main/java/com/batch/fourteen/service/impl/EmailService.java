@@ -79,31 +79,31 @@ public class EmailService implements IEmailService {
 	private String setTable(OutingForm outingForm) {
 		StringBuilder sb = new StringBuilder();
 
-		sb.append("<table style='border-collapse: collapse; border: 1px solid black;'>");
+		sb.append("<table style='border-collapse: collapse; border: 1px solid rgb(191,191,191);font-family:Cambria; font-size:12px;'>");
 
 		sb.append("<tbody>");
 		sb.append("<tr>");
-		sb.append("<td style=' border: 1px solid black;'><b>Name nya dw<b></td>");
-		sb.append("<td style=' border: 1px solid black;'>"+outingForm.getFullName()+"</td>");
+		sb.append("<td style=' padding: 5px;border: 1px solid rgb(191,191,191);background-color:rgb(217,217,217);'><b>Name nya dw<b></td>");
+		sb.append("<td style=' padding: 5px;border: 1px solid rgb(191,191,191);'>"+outingForm.getFullName()+"</td>");
 		sb.append("</tr>");
 		
 		sb.append("<tr>");
-		sb.append("<td style=' border: 1px solid black;'><b>Place(s) I want to visit in Antipolo<b></td>");
+		sb.append("<td style=' padding: 5px;padding: 5px;border: 1px solid rgb(191,191,191);background-color:rgb(217,217,217);'><b>Place(s) I want to visit in Antipolo<b></td>");
 		String antipolo = "";
 		for (int i = 0; i < outingForm.getAnswerAntipolo().size(); i++) {
 			antipolo += outingForm.getAnswerAntipolo().get(i) + "<br>";
 		}
-		sb.append("<td style=' border: 1px solid black;'>"+antipolo+"</td>");
+		sb.append("<td style=' padding: 5px;border: 1px solid rgb(191,191,191);'>"+antipolo+"</td>");
 		sb.append("</tr>");
 		
 		sb.append("<tr>");
-		sb.append("<td style=' border: 1px solid black;'><b>Pupunta ba ko?<b></td>");
-		sb.append("<td style=' border: 1px solid black;'>"+outingForm.getAnswerOuting()+"</td>");
+		sb.append("<td style=' padding: 5px;border: 1px solid rgb(191,191,191);background-color:rgb(217,217,217);'><b>Pupunta ba ko?<b></td>");
+		sb.append("<td style=' padding: 5px;border: 1px solid rgb(191,191,191);'>"+outingForm.getAnswerOuting()+"</td>");
 		sb.append("</tr>");
 		
 		sb.append("<tr>");
-		sb.append("<td style=' border: 1px solid black;'><b>Message<b></td>");
-		sb.append("<td style=' border: 1px solid black;'>"+outingForm.getMessage()+"</td>");
+		sb.append("<td style=' padding: 5px;border: 1px solid rgb(191,191,191);background-color:rgb(217,217,217);'><b>Message<b></td>");
+		sb.append("<td style=' padding: 5px;border: 1px solid rgb(191,191,191);'>"+outingForm.getMessage()+"</td>");
 		sb.append("</tr>");
 		
 		sb.append("</tbody>");
