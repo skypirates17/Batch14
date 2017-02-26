@@ -1,18 +1,18 @@
 # Batch14
-Batch 14 Web App
+##Batch 14 Web App
 
-Technologies Used.
--Java 7
--Spring 4 MVC
--Apache Tomcat
-
--Maven
--XML (Data Storage)
--JSP
-
--AJAX
--JSON
--Log4J
--Javax Mail
+###Technologies Used.<br>
+-Java 7<br>
+-Spring 4 MVC<br>
+-Apache Tomcat<br>
+<br>
+-Maven<br>
+-XML (Data Storage)<br>
+-JSP<br>
+<br>
+-AJAX<br>
+-JSON<br>
+-Log4J<br>
+-Javax Mail<br>
 
 

@@ -22,7 +22,6 @@
 
 		<!-- Logging -->
 		<log4j.version>1.2.17</log4j.version>
-		<slf4j-api.version>1.7.5</slf4j-api.version>
 			
 		<!-- Database Connection -->
 		<postgresql.version>9.1-901-1.jdbc4</postgresql.version>
@@ -63,13 +62,7 @@
 			<version>${spring-framework.version}</version>
 		</dependency>
 
-		<!-- Logging with SLF4J & Log4j -->
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-api</artifactId>
-			<version>${slf4j-api.version}</version>
-			<scope>compile</scope>
-		</dependency>
+		<!-- Logging with Log4j -->
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
