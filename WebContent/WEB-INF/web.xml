@@ -69,6 +69,19 @@
 	</filter-mapping> 
 	<!-- Logger Filter -->
 	
+	<error-page>
+		<error-code>404</error-code>
+		<location>/404.htm</location>
+	</error-page>
+	<error-page>
+		<error-code>500</error-code>
+		<location>/500.htm</location>
+	</error-page>
+	<error-page>
+		<location>/otherError.htm</location>
+	</error-page>
+	
+	
 	<welcome-file-list>
 		<welcome-file>index.htm</welcome-file>
 	</welcome-file-list>

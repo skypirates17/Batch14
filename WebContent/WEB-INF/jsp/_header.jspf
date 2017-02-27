@@ -79,7 +79,7 @@
 	<script src="<c:url value="/js/google.map.js" />"></script>
 	
 	<!-- New Checkbox and Radio Buttons Design -->
-	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="<c:url value="/css/font-awesome.css" />">
 	<link rel="stylesheet" href="<c:url value="/css/radio.checkbox.css" />">
 	
 	<!-- Bootstrap Notify -->

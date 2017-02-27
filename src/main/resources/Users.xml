@@ -14,14 +14,14 @@
 		<email>johnangolluan@aeoncredit.com.ph</email>
 		<picfilename>john.jpg</picfilename>
 	</batch>
-	
+	<!--  
 	<batch id="98" ip="0:0:0:0:0:0:0:1" pcname="hp">
 		<name>ADMIN-NAME2</name>
 		<nickname>ADMIN-NICKNAME2</nickname>
 		<email>johnangolluan@aeoncredit.com.ph</email>
 		<picfilename>john.jpg</picfilename>
 	</batch>
-
+-->
 	<batch id="1" ip="192.168.1.2" pcname="CPU279">
 		<name>Johnrey Angolluan</name>
 		<nickname>John</nickname>

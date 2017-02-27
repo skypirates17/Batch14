@@ -1,5 +1,6 @@
 package com.batch.fourteen.main;
 
+import java.io.IOException;
 import java.net.UnknownHostException;
 import java.util.HashMap;
 import java.util.Map;
@@ -10,11 +11,13 @@ import javax.servlet.http.HttpSession;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.client.HttpStatusCodeException;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.batch.fourteen.pojo.OutingForm;
@@ -38,10 +41,14 @@ public class ApplicationController {
 	private IEmailService emailService;
 
 	@RequestMapping(value = { "/index" }, method = { RequestMethod.GET })
-	public ModelAndView doGet(HttpServletRequest request, HttpServletResponse response) throws UnknownHostException {
+	public ModelAndView doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		
 		HttpSession session = request.getSession();
 		User user = userService.getUser(new SystemProperties(request).getClientIpAddress());
+		if (user == null) {
+			response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Unauthorized User");
+			return new ModelAndView("index");
+		}
 		session.setAttribute("user", user);
 		logger.debug(user.toString());
 
