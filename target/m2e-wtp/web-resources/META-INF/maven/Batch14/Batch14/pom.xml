@@ -17,15 +17,8 @@
 		<!-- Spring -->
 		<spring-framework.version>4.3.2.RELEASE</spring-framework.version>
 
-		<!-- Hibernate / JPA -->
-		<hibernate.version>4.1.0.Final</hibernate.version>
-
 		<!-- Logging -->
 		<log4j.version>1.2.17</log4j.version>
-			
-		<!-- Database Connection -->
-		<postgresql.version>9.1-901-1.jdbc4</postgresql.version>
-		<commons-dbcp.version>1.4</commons-dbcp.version>
 
 		<!-- Unit Testing -->
 		<junit.version>4.12</junit.version>
@@ -69,42 +62,12 @@
 			<version>${log4j.version}</version>
 		</dependency>
 
-		<!-- Hibernate -->
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-orm</artifactId>
-			<version>${spring-framework.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-entitymanager</artifactId>
-			<version>${hibernate.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-core</artifactId>
-			<version>${hibernate.version}</version>
-		</dependency>
-
-		<!-- Database Connection -->
-		<dependency>
-			<groupId>postgresql</groupId>
-			<artifactId>postgresql</artifactId>
-			<version>${postgresql.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>commons-dbcp</groupId>
-			<artifactId>commons-dbcp</artifactId>
-			<version>${commons-dbcp.version}</version>
-		</dependency>
-
 		<!-- unit testing -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>${junit.version}</version>
 		</dependency>
-
 
 		<dependency>
 			<groupId>org.json</groupId>

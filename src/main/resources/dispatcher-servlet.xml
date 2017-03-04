@@ -21,42 +21,4 @@
 	<context:component-scan base-package="com.batch.fourteen" />
 	
 	<mvc:annotation-driven />
-	<!--  
-	<mvc:resources mapping="/js/**" location="/WEB-INF/js/" />
-	<mvc:resources mapping="/images/**" location="/WEB-INF/images/" />  
-	<mvc:resources mapping="/css/**" location="/WEB-INF/css/" />   -->
-	
-	<!-- holding properties for database connectivity -->
-	<context:property-placeholder location="classpath:en.properties" />
-
-	<!-- datasource bean 
-	<bean id="dataSourceBean"
-		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-		<property name="driverClassName" value="${db.driver}" />
-		<property name="url" value="${db.url}" />
-		<property name="username" value="${db.username}" />
-		<property name="password" value="${db.password}" />
-	</bean> -->
-
-	<!-- Hibernate session factory
-	<bean id="sessionFactory"
-		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
-		<property name="dataSource" ref="dataSourceBean" />
-		<property name="hibernateProperties">
-			<props>
-				<prop key="hibernate.dialect">${hbm.dialect}</prop>
-				<prop key="hibernate.show_sql">${hbm.showsql}</prop>
-				<prop key="hibernate.format_sql">${hbm.formatsql}</prop>
-				<prop key="hibernate.use_sql_comments">${hbm.usesqlcomments}</prop>
-			</props>
-		</property>
-
-		<property name="packagesToScan" value="com.batch.fourteen.model" />
-	</bean>
-
-	<bean id="transactionManager"
-		class="org.springframework.orm.hibernate4.HibernateTransactionManager">
-		<property name="sessionFactory" ref="sessionFactory"></property>
-	</bean>
-	 -->
 </beans>
